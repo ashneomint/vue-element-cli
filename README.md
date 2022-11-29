@@ -1,5 +1,25 @@
 # vue-element-cli
-vue-element-cli is Build scaffolding quickly
+vue-element-cli is a Build scaffolding quickly
+
+
+
+Background: Springboot, Mybatis-plus, lombok, hutool toolset, Maven
+
+Front-end: Vue, VueX, Vue-Router, ElementUI, Axios
+
+Database: Mysql5.7+
+
+Development environment: jdk1.8, node14+
+
+Development tools: IDEA, Navicat
+
+Project address : http://localhost:8080
+
+Administrator account : admin 
+
+Password : admin
+
+
 
 
 function:

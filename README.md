@@ -35,3 +35,34 @@ Role management: Role menu permission allocation, setting roles according to the
 Code generation: Back-end code generation (java, html, xml, sql) supports CRUD download.
 
 Have fun coding~~~~
+
+
+
+Project Operation Procedure
+
+Front-end:
+
+1: open the Springboot folder 
+
+2: cd to vue folder
+
+3: do `npm i to install` dependencies
+
+Background:
+
+1: Configure the database name and password for the 'application.yml' file
+
+2: Change the 'file.path' file to your own directory
+
+
+
+Start the springboot and vue projects
+
+Enter http://localhost:8080
+
+account: admin/admin
+
+
+
+
+

@@ -1,8 +1,21 @@
 package com.ashneomint.springboot.controller.dto;
 
+import com.ashneomint.springboot.entity.Menu;
+import lombok.Data;
+
+import java.util.List;
+
 /**
- * @author shiro
- * @date 2022/12/1 14:26
+ * 接受前端登录请求的参数
  */
+@Data
 public class UserDTO {
+    private Integer id;
+    private String username;
+    private String password;
+    private String nickname;
+    private String avatarUrl;
+    private String token;
+    private String role;
+    private List<Menu> menus;
 }

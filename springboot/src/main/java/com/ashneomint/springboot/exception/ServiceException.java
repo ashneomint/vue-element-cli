@@ -1,8 +1,17 @@
 package com.ashneomint.springboot.exception;
 
+import lombok.Getter;
+
 /**
- * @author shiro
- * @date 2022/12/1 11:24
+ * 自定义异常
  */
-public class ServiceException {
+@Getter
+public class ServiceException extends RuntimeException {
+    private String code;
+
+    public ServiceException(String code, String msg) {
+        super(msg);
+        this.code = code;
+    }
+
 }

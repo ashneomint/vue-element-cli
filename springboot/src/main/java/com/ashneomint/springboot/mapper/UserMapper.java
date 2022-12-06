@@ -1,8 +1,21 @@
 package com.ashneomint.springboot.mapper;
 
+import com.ashneomint.springboot.controller.dto.UserPasswordDTO;
+import com.ashneomint.springboot.entity.User;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Update;
+
 /**
- * @author shiro
- * @date 2022/12/1 11:24
+ * <p>
+ *  Mapper 接口
+ * </p>
+ *
+ * @author
+ * @since 2022-01-26
  */
-public class UserMapper {
+public interface UserMapper extends BaseMapper<User> {
+
+    @Update("update sys_user set password = #{newPassword} where username = #{username} and password = #{password}")
+    int updatePassword(UserPasswordDTO userPasswordDTO);
+
 }

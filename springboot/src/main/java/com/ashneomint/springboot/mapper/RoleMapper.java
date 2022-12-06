@@ -1,8 +1,20 @@
 package com.ashneomint.springboot.mapper;
 
+import com.ashneomint.springboot.entity.Role;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import org.apache.ibatis.annotations.Param;
+import org.apache.ibatis.annotations.Select;
+
 /**
- * @author shiro
- * @date 2022/12/1 11:24
+ * <p>
+ *  Mapper 接口
+ * </p>
+ *
+ * @author
+ * @since 2022-02-10
  */
-public class RoleMapper {
+public interface RoleMapper extends BaseMapper<Role> {
+
+    @Select("select id from sys_role where flag = #{flag}")
+    Integer selectByFlag(@Param("flag") String flag);
 }

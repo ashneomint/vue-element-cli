@@ -1,7 +1,7 @@
-package com.qingge.springboot.mapper;
+package com.ashneomint.springboot.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.qingge.springboot.entity.Dict;
+import com.ashneomint.springboot.entity.Dict;
 
 public interface DictMapper extends BaseMapper<Dict> {
 }

@@ -1,4 +1,4 @@
-package com.ashneomint.springboot;
+package com.qingge.springboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

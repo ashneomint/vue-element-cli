@@ -1,8 +1,9 @@
 package com.ashneomint.springboot.config.interceptor;
 
-/**
- * @author shiro
- * @date 2022/12/1 14:29
- */
+import java.lang.annotation.*;
+
+@Target(ElementType.METHOD)
+@Retention(RetentionPolicy.RUNTIME)
+@Documented
 public @interface AuthAccess {
 }

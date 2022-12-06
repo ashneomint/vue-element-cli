@@ -1,8 +1,11 @@
 package com.ashneomint.springboot.controller.dto;
 
-/**
- * @author shiro
- * @date 2022/12/1 14:27
- */
+import lombok.Data;
+
+@Data
 public class UserPasswordDTO {
+    private String username;
+    private String phone;
+    private String password;
+    private String newPassword;
 }

@@ -1,8 +1,13 @@
 package com.ashneomint.springboot.entity;
 
-/**
- * @author shiro
- * @date 2022/12/1 14:25
- */
+import com.baomidou.mybatisplus.annotation.TableName;
+import lombok.Data;
+
+@TableName("sys_role_menu")
+@Data
 public class RoleMenu {
+
+    private Integer roleId;
+    private Integer menuId;
+
 }

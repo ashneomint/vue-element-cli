@@ -1,8 +1,16 @@
 package com.ashneomint.springboot.mapper;
 
+import com.ashneomint.springboot.entity.Menu;
+import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+
 /**
- * @author shiro
- * @date 2022/12/1 11:30
+ * <p>
+ *  Mapper 接口
+ * </p>
+ *
+ * @author
+ * @since 2022-02-10
  */
-public class MenuMapper {
+public interface MenuMapper extends BaseMapper<Menu> {
+
 }

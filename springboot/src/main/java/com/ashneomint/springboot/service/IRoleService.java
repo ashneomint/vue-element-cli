@@ -1,8 +1,21 @@
 package com.ashneomint.springboot.service;
 
+import com.ashneomint.springboot.entity.Role;
+import com.baomidou.mybatisplus.extension.service.IService;
+
+import java.util.List;
+
 /**
- * @author shiro
- * @date 2022/12/1 11:23
+ * <p>
+ *  服务类
+ * </p>
+ *
+ * @author
+ * @since 2022-02-10
  */
-public interface IRoleService {
+public interface IRoleService extends IService<Role> {
+
+    void setRoleMenu(Integer roleId, List<Integer> menuIds);
+
+    List<Integer> getRoleMenu(Integer roleId);
 }

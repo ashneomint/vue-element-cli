@@ -22,7 +22,7 @@ public class SwaggerConfig extends WebMvcConfigurationSupport {
         return new Docket(DocumentationType.OAS_30)
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.qingge.springboot.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.ashneomint.springboot.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }

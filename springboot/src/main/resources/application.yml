@@ -4,9 +4,9 @@ server:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/qing-vip?serverTimezone=GMT%2b8
+    url: jdbc:mysql://localhost:3306/springboot?serverTimezone=GMT%2b8
     username: root
-    password: 123456
+    password: abc123456
   servlet:
     multipart:
       max-file-size: 100MB
@@ -21,4 +21,4 @@ mybatis-plus:
 
 files:
   upload:
-    path: D:/毕设/脚手架/pure-design-vip/files/
+    path: D:/files/

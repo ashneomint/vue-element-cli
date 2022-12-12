@@ -13,10 +13,10 @@ import javax.annotation.Resource;
 import java.io.InputStream;
 import java.util.List;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.qingge.springboot.common.Result;
+import com.ashneomint.springboot.common.Result;
 import org.springframework.web.multipart.MultipartFile;
-import com.qingge.springboot.entity.User;
-import com.qingge.springboot.utils.TokenUtils;
+import com.ashneomint.springboot.entity.User;
+import com.ashneomint.springboot.utils.TokenUtils;
 
 import ${package.Service}.${table.serviceName};
 import ${package.Entity}.${entity};
